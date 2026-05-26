@@ -9,6 +9,13 @@ A hands-on tutorial for exploring Verovio with GitHub Codespaces.
 2. Wait for the environment to start.
 2. Open the provided HTML files in the browser preview and start experimenting.
 
+## To Preview your Codespace files
+
+1. Open the "Terminal" in Codespace (Bottom Panel)
+1. Type: `python3 -m http.server 8000` on the command line; Verify that it starts a web server
+1. Go to the "Ports" tab in the bottom panel
+1. You should see Port 8000; Mouse-over the "Forwarded Address" and click the Globe icon 🌐
+1. A new tab / window should open. Append the page you want to see at the end of the URL, e.g., "/editorial-markup.html" 
 
 ## Tutorial Exercises
 

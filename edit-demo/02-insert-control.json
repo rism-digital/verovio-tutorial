@@ -1,0 +1,15 @@
+{
+  "action": "chain",
+  "param": [
+    {
+      "action": "insertControl",
+      "param": {
+        "elementName": "trill",
+        "startId": "n1"
+      }
+    },
+    {
+      "action": "commit"
+    }
+  ]
+}

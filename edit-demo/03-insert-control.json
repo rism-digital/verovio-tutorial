@@ -1,0 +1,16 @@
+{
+  "action": "chain",
+  "param": [
+    {
+      "action": "insertControl",
+      "param": {
+        "elementName": "slur",
+        "startId": "n1",
+        "endId": "n3"
+      }
+    },
+    {
+      "action": "commit"
+    }
+  ]
+}

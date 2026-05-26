@@ -1,0 +1,24 @@
+{
+  "action": "chain",
+  "param": [
+    {
+      "action": "insert",
+      "param": {
+        "elementName": "accid",
+        "elementId": "n2",
+        "insertMode": "appendChildNoDuplicate"
+      }
+    },
+    {
+      "action": "set",
+      "param": {
+        "elementId": "[chained-id]",
+        "attribute": "accid",
+        "value": "s"
+      }
+    },
+    {
+      "action": "commit"
+    }
+  ]
+}

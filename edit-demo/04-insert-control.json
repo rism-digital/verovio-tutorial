@@ -1,0 +1,31 @@
+{
+  "action": "chain",
+  "param": [
+    {
+      "action": "insertControl",
+      "param": {
+        "elementName": "dir",
+        "startId": "n1"
+      }
+    },
+    {
+      "action": "insert",
+      "param": {
+        "elementName": "text",
+        "elementId": "[chained-id]",
+        "insertMode": "appendChild"
+      }
+    },
+    {
+      "action": "set",
+      "param": {
+        "elementId": "[chained-id]",
+        "attribute": "text",
+        "value": "dolce"
+      }
+    },
+    {
+      "action": "commit"
+    }
+  ]
+}

@@ -5,9 +5,10 @@ A hands-on tutorial for exploring Verovio with GitHub Codespaces.
 ## Getting Started
 
 1. Open the repository on GitHub.
-2. Click Code → Codespaces → Create codespace on main.
+2. Click "Fork" (top-right) and fork the repo (i.e., make a copy) into your own GitHub account
+2. On your own fork, click Code → Codespaces → Create codespace on main.
 2. Wait for the environment to start.
-2. Open the provided HTML files in the browser preview and start experimenting.
+2. Open the provided HTML files in the browser preview and start experimenting. (See instructions below for web server setup)
 
 ## To Preview your Codespace files
 
@@ -76,4 +77,3 @@ See the JSON files for example actions
 ### Desperate?
 
 See solutions in the [Reference book](https://book.verovio.org/first-steps/)
-
